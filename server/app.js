@@ -15,7 +15,7 @@ config({
 const app=express();
 
 const corsOptions ={
-    origin:'https://plum-repulsive-monkey.cyclic.app', 
+    Origin:'https://plum-repulsive-monkey.cyclic.app', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200,
 }
